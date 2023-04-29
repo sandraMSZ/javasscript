@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHILE NOTA GRUPO</title>
+</head>
+<body>
+    <center>
+        <img src="./img/incap.png" alt=""while="150"height="150">
+        <h1>VALIDACION DE NOTA GRUPAL PROGRAMACION JAVASCRIPT</h1>
+        <H2>CICLOS WHILE</H2>
+        <script>
+            let prom=0;
+            let suma=0;
+            let num_std=1;//contador de 3 std
+            //proceso ler ciclo while 3 std
+            while(num_std<=3){
+                nomb_std=prompt("INGRESA NOMBRE DEL ESTUDIANTE");
+                let num_notas=1;
+            while (num_notas<=3){
+                nota=parseFloa(prompt("INGRESA NOTA  STD"));
+                suma+=nota;//sumador
+                num_std++,//contador
+            }
+            num_std++;
+                num_std++;//incrementar std
+        }
+            //calcular promedio nota grupal
+            prom=suma/9;
+            //salida
+            document.write("<br>");
+            document.write("*********BOLETIN DE NOTAS SEMESTRE*********"+"<br>");
+            document.write("PROMEDIOP GRUPAL MATERIA PAE..."+prom.toFixed(2)+"<br>");
+        
+        </script>
+    </center>
+</body>
+</html>
