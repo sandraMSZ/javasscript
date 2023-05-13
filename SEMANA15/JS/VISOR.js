@@ -1,0 +1,1 @@
+function vista_miniatura(ruta){}
